@@ -7,7 +7,6 @@ document.getElementById("mode-toggle").addEventListener("click", () => {document
 // the rest of this by gemini because i didnt feel like writing js for ts (prompt:"javascript that on page launch selects the file to show in each <stars> <img src="./Stars/star1.gif" id="star1"> <img src="./Stars/star8.gif" id="star2"> <img src="./Stars/star4.gif" id="star3"> <img src="./Stars/star6.gif" id="star4"> <img src="./Stars/chaos.gif" id="star5"> </stars> from a list with weighted chances")
 		// 1. Define your file list and their respective weights
 		const starPool = [
-		{ src: "./Stars/static.png", weight: 1 },
 		{ src: "./Stars/armstrong.gif", weight: 1 },
 		{ src: "./Stars/beam.gif", weight: 1 },
 		{ src: "./Stars/contentaware.gif", weight: 1 },
