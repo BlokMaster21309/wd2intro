@@ -1,0 +1,122 @@
+@font-face {
+	font-family: 'dook';
+	src: url(./Fonts/Ole-Regular.ttf);
+	size-adjust: 141%;
+}
+@font-face {
+	font-family: 'shnit';
+	src: url(./Fonts/FjallaOne-Regular.ttf);
+	line-gap-override: 55%;
+}
+
+body {
+  font-family: 'dook';
+  padding: 2rem;
+}
+	
+body {
+	background: #df94d5;
+	color: #1e3230;
+
+	.card {
+		background-color: #edcaea;
+		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+	}
+
+	aside {
+		border-left: 3px solid #888888;
+	}
+}
+
+.dull {
+	font-family: 'shnit';
+	padding: 2rem;
+	background: #1a1a1a;
+	color: #dddddd;
+	
+	.card {
+		background-color: #2a2a2a;
+		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+	}
+
+	aside {
+		border-left: 3px solid #666666;
+	}
+
+	stars>* {
+		filter: hue-rotate(200deg);
+	}
+}
+
+.cards {
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+}
+
+.card {
+	padding: 1rem;
+	flex: 1 1 200px;
+	color: inherit;
+}
+
+.icon {
+	display: inline-block;
+	color: inherit;
+	opacity: 0.6;
+	font-size: 1.2rem;
+}
+
+aside {
+	margin-top: 2rem;
+	padding-left: 1rem;
+}
+
+#mode-toggle {
+	margin-top: 1.5rem;
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+}
+
+.acknowledgements {
+	font-size: 0.8rem;
+	margin: auto;
+	max-width: 75em;
+	font-style: italic;
+}
+
+stars>* {
+	width: 100px;
+	position:absolute;
+}
+
+#star1 {
+	left: 72%;
+	top: 15%;
+}
+
+#star2 {
+	left: 59%;
+	top: 4%;
+	size: 140%;
+}
+
+#star3 {
+	left: 38%;
+	top: 7%;
+}
+
+#star4 {
+	left: 69%;
+	top: 66%;
+}
+
+#star5 {
+	left: 80%;
+	top: 29%;
+}
+
+#star6 {
+	left: 16%;
+	top: 60%;
+}
